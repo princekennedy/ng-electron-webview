@@ -108,3 +108,4 @@ Maybe you want to execute the application in the browser with hot reload ? Just 
 [twitter]: https://twitter.com/intent/tweet?text=Check%20out%20angular-electron!%20https://github.com/maximegris/angular-electron%20%F0%9F%91%8D
 [twitter-badge]: https://img.shields.io/twitter/url/https/github.com/maximegris/angular-electron.svg?style=social
 [maintained-badge]: https://img.shields.io/badge/maintained-yes-brightgreen
+# ng-electron-webview
