@@ -5,15 +5,12 @@
 	<title>AngularElectron</title>
 	<base href="">
 
-	<!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
-    <!-- <meta name="format-detection" content="telephone=no"> -->
-    <!-- <meta name="msapplication-tap-highlight" content="no"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body  class="is-preload">
-	<app-root></app-root>
+	<app-root>Loading...</app-root>
 	<!-- Insert this line above script imports  -->
 	<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
 	<!-- normal script imports etc  -->
@@ -24,25 +21,5 @@
 	<script>if (window.module) module = window.module;</script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	
-	<script type = "text/javascript">
-         // Event handlers for loading events.
-         // Use these to handle loading screens, transitions, etc
-         // onload = () => {
-         //    const webview = document.getElementById('foo')
-         //    const indicator = document.querySelector('.indicator')
-
-         //    const loadstart = () => {
-         //       indicator.innerText = 'loading...'
-         //    }
-
-         //    const loadstop = () => {
-         //       indicator.innerText = ''
-         //    }
-
-         //    webview.addEventListener('did-start-loading', loadstart)
-         //    webview.addEventListener('did-stop-loading', loadstop)
-         // }
-      </script>
 </body>
 </html>

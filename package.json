@@ -1,11 +1,11 @@
 {
-  "name": "My-Apps",
+  "name": "angular-electron",
   "version": "7.0.1",
   "description": "Angular 9 with Electron (Typescript + SASS + Hot Reload)",
   "homepage": "https://github.com/maximegris/angular-electron",
   "author": {
-    "name": "Prince Kennedy",
-    "email": "prince0888407189@gmail.com"
+    "name": "Maxime GRIS",
+    "email": "maxime.gris@gmail.com"
   },
   "keywords": [
     "angular",
@@ -94,6 +94,7 @@
   "dependencies": {
     "@types/jquery": "3.3.33",
     "@types/sqlite3": "3.1.6",
-    "jquery": "3.4.1"
+    "jquery": "3.4.1",
+    "sqlite-ts": "0.1.0"
   }
 }

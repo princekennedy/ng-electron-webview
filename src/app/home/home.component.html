@@ -15,10 +15,9 @@
                     <li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
                   </ul>
                 </header> -->
-
               <!-- Section -->
                 <section class="section">
-                  <webview class="webview">
+                  <webview class="webview" enableremotemodule="false" allowpopups nodeintegration nodeintegrationinsubframes plugins>
                     <div class = "indicator"></div>
                  </webview>
                 </section>
@@ -29,7 +28,7 @@
         <!-- Sidebar -->
           <div id="sidebar" >
             <div class="inner" >
-              <a routerLink="/login">Login</a>
+              <a routerLink="login" routerLinkActive>Login</a>
 
               <!-- <a href="#sidebar" class="toggle">Toggle</a> -->
               <!-- Search -->
@@ -45,7 +44,6 @@
                   <header class="major">
                     <h2>Current</h2>
                   </header>
-
                   <ul>
                     <li class="icon solid fa-link">
                       <a href="#" (click)="loadPageNow(loadPage)"> 
@@ -92,27 +90,20 @@
           </div>
 
       </div>
-<!-- <div class="container">
-  <h1 class="title">
-    {{ 'PAGES.HOME.TITLE' | translate }}
-  </h1>
-</div>
- -->
-<!-- 
-.container {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+<!-- <script>
+  onload = () => {
+    const webview = document.querySelector('webview')
+    const indicator = document.querySelector('.indicator')
 
-  background: url(../../assets/background.jpg) no-repeat center fixed;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
+    const loadstart = () => {
+      indicator.innerText = 'loading...'
+    }
 
-  .title {
-    color: white;
-    margin: 0;
-    padding: 50px 20px;
+    const loadstop = () => {
+      indicator.innerText = ''
+    }
+
+    webview.addEventListener('did-start-loading', loadstart)
+    webview.addEventListener('did-stop-loading', loadstop)
   }
-}
- -->
+</script> -->

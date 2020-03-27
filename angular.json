@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "My-App": {
+    "angular-electron": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",

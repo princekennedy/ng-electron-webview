@@ -15,15 +15,17 @@ function createWindow(): BrowserWindow {
   win = new BrowserWindow({
     x: 0,
     y: 0,
-    width: size.width,
-    height: size.height,
+    // width: size.width,
+    // height: size.height,
     webPreferences: {
       nodeIntegration: true,
+      webviewTag:true,
       allowRunningInsecureContent: (serve) ? true : false,
-      webviewTag: true
     },
   });
-  win.setMenu(null);
+  // win.setMenu(null);
+  // win.webContents.openDevTools();
+
   // win.setMenuBarVisibility(false)
   if (serve) {
     require('electron-reload')(__dirname, {

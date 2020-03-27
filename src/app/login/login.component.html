@@ -1,0 +1,35 @@
+
+<div class="wrapper">
+    <!--Left Side-->
+    <div class="desc-side">
+        <div class="desc-content">
+            Its about time you brought your favourite sites together.
+        </div>
+    </div>
+    <!--Right Side-->
+    <div class="login-side">
+        <form class="form"> 
+            <!--Form Header-->
+            <div class="form-header">
+                <div class="form-icon">
+                    <img src="assets/images/login.png"/>
+                </div>
+
+                <div class="form-text" (click)="refresh()">
+                    Sign In
+                </div>
+            </div>
+
+            <!--Form Inputs-->
+            <div class="form-inputs">
+                <input type="text" name="username" placeholder="Username" [(ngModel)]="uName"/>
+                <input type="text" name="password" placeholder="Password" [(ngModel)]="uPass"/>
+            </div>
+
+            <!--Form Buttons-->
+            <div class="buttons" (click)="login()">
+                <a routerLinkActive>Login</a>
+            </div>
+        </form>
+    </div>
+</div>
