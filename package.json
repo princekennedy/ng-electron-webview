@@ -94,7 +94,7 @@
   "dependencies": {
     "@types/jquery": "3.3.33",
     "@types/sqlite3": "3.1.6",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "sqlite-ts": "0.1.0"
   }
 }
